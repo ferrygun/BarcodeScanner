@@ -1,0 +1,52 @@
+<mvc:View controllerName="GPS.GPS.controller.GPS" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<App id="idAppControl">
+		<Page title="Camera test">
+			<content>
+				<HBox width="100%" id="__hbox0" justifyContent="SpaceBetween">
+					<items>
+						<Button icon="sap-icon://begin"  width="30%" id="__button0" press="startCamera">
+							<layoutData>
+								<FlexItemData alignSelf="Stretch" id="__data0"/>
+							</layoutData>
+						</Button>
+						<Button icon="sap-icon://stop" width="30%" id="__button1" press="stopCamera">
+							<layoutData>
+								<FlexItemData alignSelf="Stretch" id="__data1"/>
+							</layoutData>
+						</Button>
+						<Button icon="sap-icon://video" width="40%" id="__button2" press="takePicture">
+							<layoutData>
+								<FlexItemData alignSelf="Stretch" id="__data2"/>
+							</layoutData>
+						</Button>
+					</items>
+				</HBox>
+				<HBox width="100%" id="__hbox1" justifyContent="Center">
+					<items>
+						<SearchField id="Barcode1">
+						</SearchField>
+					</items>
+				</HBox>
+				<HBox width="100%" id="__hbox2" justifyContent="Center">
+					<items>
+						<SearchField id="Barcode2">
+						</SearchField>
+					</items>
+				</HBox>
+				<HBox width="100%" id="__hbox3" justifyContent="Center">
+					<items>
+						<SearchField id="Barcode3">
+						</SearchField>
+					</items>
+				</HBox>
+				<HBox width="100%" id="__hbox4" justifyContent="Center">
+					<items>
+						<SearchField id="Barcode4">
+						</SearchField>
+					</items>
+				</HBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>
